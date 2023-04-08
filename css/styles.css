@@ -8,7 +8,7 @@ h1{
     line-height: 1.5;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 10%;
 }
 body{
     font:"Montserrat";
@@ -34,11 +34,16 @@ padding:0 0 4.5rem;
     margin:5% 3% 5% 0;
 }
 .image-iphone{
-    width:60%;
+    width:17%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align: center;
