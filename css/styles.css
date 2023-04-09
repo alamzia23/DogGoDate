@@ -100,7 +100,11 @@ p{
     padding:3% 2%;
 } 
 @media (max-width:995px){
+    #title-image{
+        text-align: center;
+    }
     .image-iphone{
         position: static;
+        transform: rotate(0);
     }
 }
