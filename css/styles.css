@@ -99,3 +99,8 @@ p{
 .pricing-column{
     padding:3% 2%;
 } 
+@media (max-width:995px){
+    .image-iphone{
+        position: static;
+    }
+}
